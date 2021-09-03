@@ -6,16 +6,7 @@
     <description>Recent content in Posts on ivil的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 31 Aug 2021 14:52:50 +0800</lastBuildDate><atom:link href="https://ivil.github.io/post/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>工程管理：包机制</title>
-      <link>https://ivil.github.io/post/%E5%8C%85%E6%9C%BA%E5%88%B6/</link>
-      <pubDate>Tue, 31 Aug 2021 14:52:50 +0800</pubDate>
-      
-      <guid>https://ivil.github.io/post/%E5%8C%85%E6%9C%BA%E5%88%B6/</guid>
-      <description>工程管理：包机制(Golang) ​ 每一个大型的软件工程项目，都需要进行工程管理。工程管理的一个环节就是代码层次的管理。 ​ 包，也称为库，如代码的一个包，代码的一个库，英文：Library 或者 Package。 ​ 在高级编程语言层次，也就是代码本身，各种语言发明了包（package）机制</description>
-    </item>
-    
+    <lastBuildDate>Sun, 29 Aug 2021 01:00:58 +0800</lastBuildDate><atom:link href="https://ivil.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test</title>
       <link>https://ivil.github.io/post/test/</link>
