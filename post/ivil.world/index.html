@@ -1,0 +1,439 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    
+
+    <title>于是我们奋力前行，却如同逆水行舟，注定要不停地退回过去 | ivil.world</title>
+    <meta property="og:title" content="于是我们奋力前行，却如同逆水行舟，注定要不停地退回过去 - ivil.world">
+    <meta property="og:type" content="article">
+        
+    <meta property="article:published_time" content='2022-05-12T20:43:02&#43;08:00'>
+        
+        
+    <meta property="article:modified_time" content='2022-05-12T20:43:02&#43;08:00'>
+        
+    <meta name="Keywords" content="golang,go语言,go语言笔记,typescript,golang,solidity,软件开发">
+    <meta name="description" content="于是我们奋力前行，却如同逆水行舟，注定要不停地退回过去">
+        
+    <meta name="author" content="ivil">
+    <meta property="og:url" content="http://www.ivil.world/post/ivil.world/">
+    <link rel="shortcut icon" href='/favicon.ico'  type="image/x-icon">
+
+    <link rel="stylesheet" href='/css/normalize.css'>
+    <link rel="stylesheet" href='/css/style.css'>
+    <script type="text/javascript" src="//cdn.bootcdn.net/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    
+    
+    
+    
+    
+    
+        <link rel="stylesheet" href='/css/douban.css'>
+    
+        <link rel="stylesheet" href='/css/other.css'>
+    
+</head>
+
+<body>
+    <header id="header" class="clearfix">
+    <div class="container">
+        <div class="col-group">
+            <div class="site-name ">
+                
+                    <a id="logo" href="http://www.ivil.world">
+                        ivil.world
+                    </a>
+                
+                <p class="description">专注于typescript、solidity、Go语言(golang)、vue、react、区块链、web3、智能合约</p>
+            </div>
+            <div>
+                <nav id="nav-menu" class="clearfix">
+                    <a class="current" href="http://www.ivil.world">首页</a>
+                    
+                    <a  href="http://www.ivil.world/tools/" title="工具">工具</a>
+                    
+                    <a  href="http://www.ivil.world/archives/" title="归档">归档</a>
+                    
+                    <a  href="http://www.ivil.world/about/" title="关于">关于</a>
+                    
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+    <div id="body">
+        <div class="container">
+            <div class="col-group">
+
+                <div class="col-8" id="main">
+                    
+<div class="res-cons">
+    <style type="text/css">
+    .post-toc {
+        position: fixed;
+        width: 200px;
+        margin-left: -210px;
+        padding: 5px 10px;
+        font-family: Athelas, STHeiti, Microsoft Yahei, serif;
+        font-size: 12px;
+        border: 1px solid rgba(0, 0, 0, .07);
+        border-radius: 5px;
+        background-color: rgba(255, 255, 255, 0.98);
+        background-clip: padding-box;
+        -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, .125);
+        box-shadow: 1px 1px 2px rgba(0, 0, 0, .125);
+        word-wrap: break-word;
+        white-space: nowrap;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        z-index: 999;
+        cursor: pointer;
+        max-height: 70%;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    .post-toc .post-toc-title {
+        width: 100%;
+        margin: 0 auto;
+        font-size: 20px;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .post-toc .post-toc-content {
+        font-size: 15px;
+    }
+
+    .post-toc .post-toc-content>nav>ul {
+        margin: 10px 0;
+    }
+
+    .post-toc .post-toc-content ul {
+        padding-left: 20px;
+        list-style: square;
+        margin: 0.5em;
+        line-height: 1.8em;
+    }
+
+    .post-toc .post-toc-content ul ul {
+        padding-left: 15px;
+        display: none;
+    }
+
+    @media print,
+    screen and (max-width:1057px) {
+        .post-toc {
+            display: none;
+        }
+    }
+</style>
+<div class="post-toc" style="position: absolute; top: 188px;">
+    <h2 class="post-toc-title">文章目录</h2>
+    <div class="post-toc-content">
+        <nav id="TableOfContents"></nav>
+    </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        var postToc = $(".post-toc");
+        if (postToc.length) {
+            var leftPos = $("#main").offset().left;
+            if (leftPos < 220) {
+                postToc.css({ "width": leftPos - 10, "margin-left": (0 - leftPos) })
+            }
+
+            var t = postToc.offset().top - 20,
+                a = {
+                    start: {
+                        position: "absolute",
+                        top: t
+                    },
+                    process: {
+                        position: "fixed",
+                        top: 20
+                    },
+                };
+            $(window).scroll(function () {
+                var e = $(window).scrollTop();
+                e < t ? postToc.css(a.start) : postToc.css(a.process)
+            })
+        }
+
+        if ($("#TableOfContents").children().length < 1) {
+            $(".post-toc").remove();
+        }
+    })
+</script>
+    <article class="post">
+        <header>
+            <h1 class="post-title">于是我们奋力前行，却如同逆水行舟，注定要不停地退回过去</h1>
+        </header>
+        <date class="post-meta meta-date">
+            2022年5月12日
+        </date>
+        
+        <div class="post-meta">
+            <span>|</span>
+            
+            <span class="meta-category"><a href='/categories/ivil.world'>ivil.world</a></span>
+            
+        </div>
+        
+        
+        <div class="post-meta">
+            <span id="busuanzi_container_page_pv">|<span id="busuanzi_value_page_pv"></span><span>
+                    阅读</span></span>
+        </div>
+        
+        
+        <div class="post-content">
+            <h1 id="尽情感受这加密幻灭时">尽情感受，这加密幻灭时！</h1>
+<p>
+        <img class="mx-auto" alt="" src="https://n.sinaimg.cn/spider20220512/116/w600h316/20220512/5810-b666f8dd95a9de4180e3ed32075e5257.jpg" />   
+    </p>
+<p>朋友，你感受过幻灭吗？</p>
+<p>当黛西离开，投向汤姆的怀抱，盖茨比的美国梦幻灭了。</p>
+<p>他最终没有赢得黛西的爱情；无论盖茨比拥有了多少财富，无论举办了多少奢华的宴会，试图融入上流社会，却依然无法逾越社会阶级的鸿沟……</p>
+<p>“<strong>于是我们奋力前行，却如同逆水行舟，注定要不停地退回过去</strong>”，《了不起的盖茨比》最后一句总是让人想哭。</p>
+<p>UST脱锚、LUNA一天暴跌95%、山寨币大盘单日回调普遍超过30%……</p>
+<p>经历了 “特斯拉买入比特币”、“萨尔瓦多将比特币作为法币”、“传统VC ALL IN WEB3”的繁荣兴盛，加密市场也迎来了幻灭时刻。</p>
+<p>“<strong>就当是一场梦，醒了很久还是很感动</strong>”，我不禁开始RAP起来。</p>
+<p>2007年金融危机爆发前夕，时任花旗集团首席执行官的Chuck Prince曾说过一句很有名的话，“<strong>当流动性的音乐停止时，事情可能会变得复杂。但只要音乐还在播放，你就得起身继续跳舞。</strong>”</p>
+<p>一个月以后，这场华丽乐章戛然而止，以雷曼兄弟破产为标志，金融海啸席卷全球，市场崩溃一发不可收拾，股市狂泻不止。</p>
+<p>2022年5月5日，美联储宣布加息50个基点，5天后，UST脱锚，幕后的“加密索罗斯”迎来了绝佳的狙击时刻。</p>
+<p>一个市值高达400亿美元的“算稳传奇”就这样土崩瓦解，加密世界没有“大而不倒”。</p>
+<p>UST暴雷对市场共识的伤害绝不仅仅是算稳这一个赛道，而是对整个山寨币投资逻辑的重创，特别是那些高FDV的VC Coin。</p>
+<p>“<strong>山寨龙头Luna都倒了，其他又有几个比Luna强？</strong>”</p>
+<p>2020年的312是比特币的流动性收缩带蹦大盘，510就只是山寨们的“跳楼秀”。</p>
+<p>新公链、时光机（Fork 以太坊生态上的应用到新公链）、算稳……这些叙事通通跌入“冷宫”，<strong>更何况一级市场的大佬们也开始余粮吃紧。</strong></p>
+<p>作为加密市场最大的“接盘侠”之一，老虎环球(Tiger Global)在今年的科技股抛售中遭受约170亿美元的亏损，是有史以来对冲基金遭遇的最大美元亏损之一。</p>
+<p>Tiger在加密领域的超过40笔投资，也只能用“做慈善”来形容，名副其实“大善人”。</p>
+<p>Jump Crypto，一度是去年的加密大赢家，如今悉数倒吐回去，面对UST困境，想救，心有余而力不足。</p>
+<p>曾经风风火火的一级半市场（OTC），成为了VC们的绞肉机，只跌一半已是良心，至少比6块让VC们接盘，现在跌到0.4更仁义。</p>
+<p>至于一级市场，更是“TO VC”的绞肉盛宴，动辄1B的估值比“市梦率”更有梦想，但依然有VC为梦想买单。</p>
+<p>FOMO之下，焉有完卵。</p>
+<p>此前，大声叫嚷“All in Crypto”、“All in Web3”的传统VC，此刻沉默很多，除了为“VC顶（传统VC大喊All in 的时候就要跑）”贡献新的素材以外，一些人在哀叹，“倒霉，在新加坡募的WEB3基金还没募好”，一些人在犹豫发怵，“这个市场太凶险，要不我还是先溜了”……</p>
+<p>说实话，我并不想他们都跑了，为了安抚他们的情绪，我准备之后写一篇《不要让传统VC跑了》（老乡别跑）来对他们进行心理按摩。</p>
+<p>UST暴雷重创了市场情绪，但我能确信，加密狂潮会再次席卷而来，在未来的数十年内，Crypto依然是Alpha，但肯定换了不一样的叙事逻辑。</p>
+<p>Crypto 直接受益于全球的“金融民粹化”以及“美联储大放水”，从长期来看，这两点都是不可阻挡的历史趋势，在逆全球化愈发加速的当下，Crypto是唯一能无许可连接全球市场的“诺亚方舟”。</p>
+<p>如果要讲反思的话，我认为过去加密行业的从业者把精力过度放在了“经济模型”上，各类冠以创新之名的Ponzi套娃层出不穷，并沉醉于其中，但本质上依然是在加杠杆。</p>
+<p>比如说，我们就公开表扬过Luna价值捕获能力很强。</p>
+<p>当美联储的音乐停止，<strong>Crypto或者说WEB3（Crypto的马甲）想要得到长期健康发展且被主流所认可，的确需要考虑“出圈”和“正外部性”两件事。</strong></p>
+<p>每一轮牛市周期都会有新的叙事，都将诞生新的加密英雄，尽情享受这加密幻灭时，蓄势迎接新的波涛汹涌。</p>
+<p>***<em>深潮 TechFlow 是由志愿者和实习生驱动的深度Blockchain内容平台，致力于提供有价值的信息，有态度的思考。</em></p>
+
+        </div>
+
+        
+
+
+        
+
+<div class="post-archive">
+    <h2>See Also</h2>
+    <ul class="listing">
+        
+        <li><a href="/tools/">关于我</a></li>
+        
+        <li><a href="/archives/">归档</a></li>
+        
+        <li><a href="/search/">搜索</a></li>
+        
+    </ul>
+</div>
+
+
+        <div class="post-meta meta-tags">
+            
+            <ul class="clearfix">
+                
+                <li><a href='/tags/ivil.world'>ivil.world</a></li>
+                
+            </ul>
+            
+        </div>
+    </article>
+    
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "yourdiscussshortname" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+    
+    
+    <div class="post bg-white">
+      <script src="https://utteranc.es/client.js"
+            repo= "your github repo"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+      </script>
+    </div>
+    
+    
+    
+    <div id="waline"></div>
+    <script src="//cdn.jsdelivr.net/npm/@waline/client"></script>
+    <script>
+        Waline({
+            el: '#waline',
+            serverURL: 'Your waline serverURL',
+            placeholder: '说点什么吧...',
+        });
+    </script>
+    
+
+</div>
+
+                    <footer id="footer">
+    <div>
+        &copy; 2022 <a href="http://www.ivil.world">ivil.world By ivil</a>
+        
+    </div>
+    <br />
+    <div>
+        <div class="github-badge">
+            <a href="https://gohugo.io/" target="_black" rel="nofollow"><span class="badge-subject">Powered by</span><span class="badge-value bg-blue">Hugo</span></a>
+        </div>
+        <div class="github-badge">
+            <a href="https://github.com/flysnow-org/maupassant-hugo" target="_black"><span class="badge-subject">Theme</span><span class="badge-value bg-brightgreen">Maupassant</span></a>
+        </div>
+        <div class="github-badge">
+            <a href="https://beian.miit.gov.cn/" target="_blank"><span class="badge-value bg-blue">鄂ICP备2022003071号</span></a>
+        </div>
+    </div>
+</footer>
+
+
+    
+    
+    <script type="text/javascript">
+        window.MathJax = {
+            tex2jax: {
+                inlineMath: [['$', '$']],
+                processEscapes: true
+                }
+            };
+    </script>
+    <script src='//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+
+<a id="rocket" href="#top"></a>
+<script type="text/javascript" src='/js/totop.js?v=0.0.0' async=""></script>
+    <script type="text/javascript" src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async></script>
+
+
+
+
+    <script src='/js/douban.js'></script>
+
+                </div>
+
+                <div id="secondary">
+    <section class="widget">
+        <form id="search" action='http://www.ivil.world/search' method="get" accept-charset="utf-8" target="_blank" _lpchecked="1">
+      
+      <input type="text" name="q" maxlength="20" placeholder="Search">
+      <input type="hidden" name="sitesearch" value="http://www.ivil.world">
+      <button type="submit" class="submit icon-search"></button>
+</form>
+    </section>
+    
+    <section class="widget">
+        <h3 class="widget-title">最近文章</h3>
+<ul class="widget-list">
+    
+    <li>
+        <a href="http://www.ivil.world/post/ivil.world/" title="于是我们奋力前行，却如同逆水行舟，注定要不停地退回过去">于是我们奋力前行，却如同逆水行舟，注定要不停地退回过去</a>
+    </li>
+    
+</ul>
+    </section>
+
+    
+<section class="widget">
+    <h3 class="widget-title" style="color:red">福利派送</h3>
+    <ul class="widget-list">
+        
+        <li>
+            <a href="https://cloud.tencent.com/act/cps/redirect?redirect=1048&amp;cps_key=14ff722692ac784fa8c3301c8c28d924&amp;from=console" title="助力产业智慧升级，云服务器首年88元起，更有千元代金券礼包免费领！" target="_blank" style="color:red">
+                
+                    <img src="https://upload-dianshi-1255598498.file.myqcloud.com/345-7c71532bd4935fbdd9a67c1a71e577b1767b805c.200%E7%89%88%E6%9C%ACB.jpg">
+                
+            </a>
+        </li>
+        
+    </ul>
+</section>
+
+
+    <section class="widget">
+        <h3 class="widget-title"><a href='/categories/'>分类</a></h3>
+<ul class="widget-list">
+    
+    <li><a href="http://www.ivil.world/categories/ivil.world/">ivil.world (1)</a></li>
+    
+</ul>
+    </section>
+
+    <section class="widget">
+        <h3 class="widget-title"><a href='/tags/'>标签</a></h3>
+<div class="tagcloud">
+    
+    <a href="http://www.ivil.world/tags/ivil.world/">ivil.world</a>
+    
+</div>
+    </section>
+
+    
+<section class="widget">
+    <h3 class="widget-title">友情链接</h3>
+    <ul class="widget-list">
+        
+        <li>
+            <a target="_blank" href="http://www.ivil.world" title="ivil的博客">ivil的博客</a>
+        </li>
+        
+    </ul>
+</section>
+
+
+    <section class="widget">
+        <h3 class="widget-title">其它</h3>
+        <ul class="widget-list">
+            <li><a href="http://www.ivil.world/index.xml">文章 RSS</a></li>
+        </ul>
+    </section>
+</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
