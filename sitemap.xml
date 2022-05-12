@@ -2,35 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://www.ivil.world/about/</loc>
+    <loc>https://ivil.github.io/about/</loc>
     <lastmod>2022-05-12T22:49:06+08:00</lastmod>
   </url><url>
-    <loc>http://www.ivil.world/categories/</loc>
+    <loc>https://ivil.github.io/categories/</loc>
     <lastmod>2022-05-12T20:43:02+08:00</lastmod>
   </url><url>
-    <loc>http://www.ivil.world/tags/ivil.world/</loc>
+    <loc>https://ivil.github.io/tags/ivil.world/</loc>
     <lastmod>2022-05-12T20:43:02+08:00</lastmod>
   </url><url>
-    <loc>http://www.ivil.world/categories/ivil.world/</loc>
+    <loc>https://ivil.github.io/categories/ivil.world/</loc>
     <lastmod>2022-05-12T20:43:02+08:00</lastmod>
   </url><url>
-    <loc>http://www.ivil.world/</loc>
+    <loc>https://ivil.github.io/</loc>
     <lastmod>2022-05-12T20:43:02+08:00</lastmod>
   </url><url>
-    <loc>http://www.ivil.world/post/</loc>
+    <loc>https://ivil.github.io/post/</loc>
     <lastmod>2022-05-12T20:43:02+08:00</lastmod>
   </url><url>
-    <loc>http://www.ivil.world/tags/</loc>
+    <loc>https://ivil.github.io/tags/</loc>
     <lastmod>2022-05-12T20:43:02+08:00</lastmod>
   </url><url>
-    <loc>http://www.ivil.world/post/ivil.world/</loc>
+    <loc>https://ivil.github.io/post/ivil.world/</loc>
     <lastmod>2022-05-12T20:43:02+08:00</lastmod>
   </url><url>
-    <loc>http://www.ivil.world/tools/</loc>
+    <loc>https://ivil.github.io/tools/</loc>
     <lastmod>2022-05-11T00:13:27+00:00</lastmod>
   </url><url>
-    <loc>http://www.ivil.world/archives/</loc>
+    <loc>https://ivil.github.io/archives/</loc>
   </url><url>
-    <loc>http://www.ivil.world/search/</loc>
+    <loc>https://ivil.github.io/search/</loc>
   </url>
 </urlset>

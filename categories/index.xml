@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on ivil.world</title>
-    <link>http://www.ivil.world/categories/</link>
+    <link>https://ivil.github.io/categories/</link>
     <description>Recent content in Categories on ivil.world</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 12 May 2022 20:43:02 +0800</lastBuildDate><atom:link href="http://www.ivil.world/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 12 May 2022 20:43:02 +0800</lastBuildDate><atom:link href="https://ivil.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ivil.world</title>
-      <link>http://www.ivil.world/categories/ivil.world/</link>
+      <link>https://ivil.github.io/categories/ivil.world/</link>
       <pubDate>Thu, 12 May 2022 20:43:02 +0800</pubDate>
       
-      <guid>http://www.ivil.world/categories/ivil.world/</guid>
+      <guid>https://ivil.github.io/categories/ivil.world/</guid>
       <description></description>
     </item>
     
