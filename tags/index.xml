@@ -2,17 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on ivil.world</title>
-    <link>https://ivil.github.io/tags/</link>
+    <link>https://www.ivil.world/tags/</link>
     <description>Recent content in Tags on ivil.world</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 12 May 2022 20:43:02 +0800</lastBuildDate><atom:link href="https://ivil.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 May 2022 22:57:44 +0800</lastBuildDate><atom:link href="https://www.ivil.world/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>随笔</title>
+      <link>https://www.ivil.world/tags/%E9%9A%8F%E7%AC%94/</link>
+      <pubDate>Fri, 20 May 2022 22:57:44 +0800</pubDate>
+      
+      <guid>https://www.ivil.world/tags/%E9%9A%8F%E7%AC%94/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>ivil.world</title>
-      <link>https://ivil.github.io/tags/ivil.world/</link>
+      <link>https://www.ivil.world/tags/ivil.world/</link>
       <pubDate>Thu, 12 May 2022 20:43:02 +0800</pubDate>
       
-      <guid>https://ivil.github.io/tags/ivil.world/</guid>
+      <guid>https://www.ivil.world/tags/ivil.world/</guid>
       <description></description>
     </item>
     

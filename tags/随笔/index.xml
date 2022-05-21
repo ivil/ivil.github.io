@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>随笔 on ivil.world</title>
+    <link>https://www.ivil.world/tags/%E9%9A%8F%E7%AC%94/</link>
+    <description>Recent content in 随笔 on ivil.world</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 20 May 2022 22:57:44 +0800</lastBuildDate><atom:link href="https://www.ivil.world/tags/%E9%9A%8F%E7%AC%94/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>山高路远，有人为我而来</title>
+      <link>https://www.ivil.world/post/2022-5-20/</link>
+      <pubDate>Fri, 20 May 2022 22:57:44 +0800</pubDate>
+      
+      <guid>https://www.ivil.world/post/2022-5-20/</guid>
+      <description>感谢公司技术经理指明的一些.net学习路线，推荐的书也都非常不错 1、入门，基础知识，C#编程指南 C# Leecode刷题（用c#实现） 2、wpf 3、books 学会提问 你的灯还亮着吗 金字塔原理 代码大全</description>
+    </item>
+    
+  </channel>
+</rss>
